@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div>
+        <h2 id="title">Word Counter</h2>
+      </div>
+      <div id="input-area">
+        <textarea
+          name="input-text"
+          id="input-text"
+          cols="60"
+          rows="20"
+          placeholder="Enter your text here..."
+        ></textarea>
+      </div>
+      <div id="output-area">
+        <p><span id="char">0</span> Character (including white spaces)</p>
+        <p><span id="simpchar">0</span> Characters (without spaces)</p>
+        <p><span id="words">0</span> Words</p>
+      </div>
+      <div id="button-sec">
+        <button id="copybtn" class="btn">Copy</button>
+        <!-- <button id="pastebtn" class="btn">Paste</button> -->
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
